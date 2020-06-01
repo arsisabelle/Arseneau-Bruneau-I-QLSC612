@@ -1,0 +1,23 @@
+REQUIREMENTS:
+
+This analysis, we assume requires a standard a Python environment (numpy, scipy, matplotlib) and anaconda installed on your computer. If you don't have these packages on your computer, you can refer to the installation instruction found here https://school.brainhackmtl.org/setup/.)  
+Nevertheless, to facilitate the installation of the dependencies, a virtual environnement has been created so users can avoid troubles experienced on local machines by the author of this notebook). Thus, make sure to follow the installation instructions described here, on in the README.md document, and at the beginnind of the jupyter notebook of this repository.
+
+To Install and run the virtual environment, go to your terminal and enter the following commands:
+
+`conda env create --file isabelle.yml`
+
+`conda activate isabelle`
+
+`jupyter notebook myAnalysis.ipynb`
+
+This will install the following dependencies:
+
+dependencies:
+  - python=3.7
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - notebook
+  - statsmodels
