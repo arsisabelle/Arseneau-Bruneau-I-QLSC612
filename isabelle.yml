@@ -1,12 +1,13 @@
 name: isabelle
 channels:
   - defaults
-  - conda-forge
 dependencies:
-  - pandas
-  - matplotlib
   - python=3.7
-  - scipy
+  - matplotlib
   - numpy
-prefix: /home/marcel/miniconda3/envs/isabelle
+  - pandas
+  - scipy
+  - notebook
+  - statsmodels
+prefix: C:\Users\bertrand\miniconda3\envs\isabelle
 
